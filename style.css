@@ -16,7 +16,7 @@ body {
 
 .container {
   width: 35vw;
-  height: 65vh;
+  height: 75vh;
   background-color: rgb(234, 197, 209);
   border-radius: 0.5rem;
   display: flex;
@@ -99,8 +99,8 @@ a:hover {
     font-size: 1.5rem;
     line-height: 2.5rem;
   }
-  
-a:hover {
+
+  a:hover {
     background-color: rgb(53, 59, 59);
     color: rgb(225, 214, 214);
   }
