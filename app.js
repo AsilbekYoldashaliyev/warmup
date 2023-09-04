@@ -22,15 +22,16 @@ const parents = [
 ];
 
 let male = [];
+let female = [];
 for (let i = 0; i < parents.length; i++) {
   if (parents[i].gender === "father") {
     male = [...male, parents[i]];
   }
-}
-let female = [];
-for (let i = 0; i < parents.length; i++) {
-  if (parents[i].gender === "mother") {
+  else if (parents[i].gender === "mother") {
     female = [...female, parents[i]];
   }
 }
-console.log(female);
+
+
+
+console.log(male);
